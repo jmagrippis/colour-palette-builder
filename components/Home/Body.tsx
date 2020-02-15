@@ -1,12 +1,11 @@
 import React from 'react'
 
-export const Body = () => (
-  <main>
-    <div>Not another random generator</div>
+import { Hero } from './Hero/Hero'
+import { Builder } from './Builder/Builder'
 
-    <div>
-      <button>give it a try</button>
-      <button>learn more</button>
-    </div>
+export const Body = () => (
+  <main className="w-full">
+    <Hero />
+    <Builder />
   </main>
 )
